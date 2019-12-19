@@ -52,21 +52,7 @@ h1 {
 body {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
-  .clearfix::after { 
-    content: " ";
-    display: block; 
-    height: 0; 
-    clear: both;
-    background-color: black;
-    margin: 120px auto; 
-}
-.main-content-port {
-  margin: 120px auto; 
-  background-color: #708090;
-  width: 70%; 
-  clear:both; 
-  content: " ";
-}
+
 .main-content {
   margin: 120px auto; 
   background-color: #708090;
@@ -109,16 +95,67 @@ body {
   padding-bottom: 10px; 
   margin-left: 10px;  
 }
-.items {
-  width: 34%; 
-  height: 100px; 
-  background-color: cornflowerblue;
-  float: left; 
-  margin: 10px; 
 
+#float-container {
+  background-color:#708090;
+  height: 100%;
+  width: 70%;
+  overflow: hidden;
+  margin: 120px auto; 
+}
+.content-heading {
+  border-bottom: solid;
+  width: 80%;
+  margin-left: 20px;
+}
+
+.float-element {
+  float: left;
+  width: 34%;
+  height: 100px;
+  background-color: rgba(72,72,72,0.4);
+  margin: 10px;
+}
+.banner {
+  margin-top:80px;
+  height: 20px; 
+  background-color: green; 
+}
+.form-container {
+  margin-left: 20px; 
+  margin-bottom: 20px;
+  width: 90% 
+}
+#form-heading {
+  width: 100%; 
+  margin-left: 0px; 
+}
+form {
+  margin-left: 20px; 
+}
+.input {
+  margin-top: 10px; 
+  margin-bottom: 10px; 
+  width: 100%; 
+}
+
+.form-span {
+  margin-top: 15px; 
+}
+#message-box {
+  line-height: 100px; 
+  padding: 20px; 
+}
+.submit-button {
+  margin-top: 10px; 
+  padding: 5px 10px; 
 }
 
 footer {
+  width: 100%; 
+  position: absolute; 
+  bottom: 0; 
+  clear: both; 
   border-top: 5px solid olive; 
   background-color: tan; 
   height: 100px;
