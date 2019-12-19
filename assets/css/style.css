@@ -1,3 +1,137 @@
+* {
+  box-sizing: border-box; 
+}
+body {
+  background-color: #eee;
+
+}
+header {
+  background-color: tan; 
+  width: 100%; 
+  position: fixed; 
+  z-index: 1; 
+  border-bottom: 2px solid silver;  
+  float: left; 
+  position: fixed; 
+  height: 100px; 
+  margin-top: 0; 
+  top: 0;
+  left: 0;
+
+}
+header h1 {
+  float: left; 
+  width: 20%; 
+  background-color: olive;
+  height: 100px;
+  margin-left: 10%;
+  padding: 10px; 
+  margin-top: 0;
+  text-align: center; 
+  padding-top: 20px; 
+}
+nav {
+  padding-top: 40px; 
+  float: left; 
+  position: absolute; 
+  right: 100px; 
+  height: 25px; 
+}
+nav span {
+  padding-top: 25px; 
+}
+nav span a {
+  text-decoration: none;
+  height: 40px; 
+  padding: 25px 5px 25px 5px; 
+}
+
+h1 {
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+body {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+  .clearfix::after { 
+    content: " ";
+    display: block; 
+    height: 0; 
+    clear: both;
+    background-color: black;
+    margin: 120px auto; 
+}
+.main-content-port {
+  margin: 120px auto; 
+  background-color: #708090;
+  width: 70%; 
+  clear:both; 
+  content: " ";
+}
+.main-content {
+  margin: 120px auto; 
+  background-color: #708090;
+  width: 70%; 
+}
+#about-me-bla {
+  width: 100%; 
+  clear: both; 
+}
+.heading-about-me {
+  font-family: 'Arial'; 
+  color: aqua; 
+  border-bottom: 2px solid black; 
+  width: 80%;
+  padding-top: 20px; 
+  padding-bottom: 10px; 
+  margin-left: 10px;  
+}
+
+.selfie {
+  height: 100px; 
+  width: 20%; 
+  float: left; 
+  margin-left: 10px; 
+  margin-right: 10px; 
+}
+.par-about-me {
+  width: 90%;
+  padding-left: 10px; 
+  padding-top: 0; 
+  margin-top: 0; 
+}
+#portfolio-heading {
+  width: 100%;  
+  font-family: 'Arial'; 
+  color: aqua; 
+  border-bottom: 2px solid black; 
+  width: 80%;
+  padding-top: 20px; 
+  padding-bottom: 10px; 
+  margin-left: 10px;  
+}
+.items {
+  width: 34%; 
+  height: 100px; 
+  background-color: cornflowerblue;
+  float: left; 
+  margin: 10px; 
+
+}
+
+footer {
+  border-top: 5px solid olive; 
+  background-color: tan; 
+  height: 100px;
+}
+
+
+
+
+
+
+
+
+
 /*
 header {
     display: flex;
